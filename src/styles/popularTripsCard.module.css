@@ -1,0 +1,86 @@
+.pt_cards {
+  /* padding: 10px; */
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pt_card {
+  /* padding: 10px; */
+  width: 270px;
+  background-color: #fff;
+}
+
+.pt_card__image {
+  position: relative;
+}
+
+.pt_card__image img {
+  /* width: inherit; */
+  width: 270px;
+}
+
+.pt_card__image p {
+  background-color: #262626c4;
+  color: #fff;
+  width: fit-content;
+  padding: 3px 7px;
+  border-radius: 2px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.pt_card__body {
+  width: inherit;
+  padding: 10px;
+}
+
+.pt_card__body__first,
+.pt_card__body__second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pt_card__body__first .location,
+.pt_card__body__first .duration,
+.pt_card__body__second .time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pt_card__body__first p,
+.pt_card__body__second p,
+.pt_card__body__third p {
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+.pt_card__body__first p svg {
+  margin-top: 5px;
+}
+
+.pt_card__body__second .rating p svg {
+  color: #e0bf0f;
+}
+
+.pt_card__body__second .time p svg {
+  margin-right: 5px;
+}
+
+.book_btn {
+  margin-left: 70%;
+}
+
+.book_btn button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  background-color: #037743;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
