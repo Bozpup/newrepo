@@ -3,12 +3,14 @@
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .pt_card {
   /* padding: 10px; */
-  width: 270px;
+  width: 250px;
   background-color: #fff;
+  margin-bottom: 30px;
 }
 
 .pt_card__image {
@@ -17,7 +19,7 @@
 
 .pt_card__image img {
   /* width: inherit; */
-  width: 270px;
+  width: 250px;
 }
 
 .pt_card__image p {
