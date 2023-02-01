@@ -9,7 +9,7 @@ const ForgotPassword = () => {
         <p>Please enter the email linked to your account</p>
         <form action="" className={styles.form}>
           <label htmlFor="">Email Address</label>
-          <input type="email" placeholder="e.g. shuttlenaija@company.com" />
+          <input type="email" placeholder="e.g. shuttlenaija@company.com" style={{"font-family": 'inherit'}}/>
           <button className={styles.submit}>Done</button>
         </form>
         <p className={styles.foot}>
