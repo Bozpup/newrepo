@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import {} from "react-icons/fa";
-import styles from "./../../styles/ForgotPassword/forgotPassword.module.css";
+import styles from "./../styles/forgotPassword.module.css";
 
 const ForgotPassword = () => {
   const [showLink, setShowLink] = useState(false);
