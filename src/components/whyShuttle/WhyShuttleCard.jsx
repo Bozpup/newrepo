@@ -5,7 +5,7 @@ const WhyShuttleCard = ({ header, label, icon }) => {
   return (
     <div className={styles.why_card__container}>
       <div className={styles.iconContainer}>
-        <img src={icon} alt="Bus" />
+        <img src={icon} alt="Bus" className={styles.icon} />
       </div>
       <div>
         <div>
