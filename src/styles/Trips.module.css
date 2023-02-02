@@ -1,0 +1,42 @@
+* {
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #000000;
+}
+
+span {
+    color: rgba(3, 119, 67, 1);
+}
+
+.content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.image{
+    background-color: #EDEDED;
+    padding: 3%;
+    border-radius: 100%;
+    width: 13%;
+}
+
+
+hr {
+    width: 10%;
+    margin-top: 30px;
+    color: rgb(211, 231, 222);
+}
+
+.contents {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}

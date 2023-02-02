@@ -1,0 +1,15 @@
+.popular_trips {
+  padding: 20px 30px;
+  background-color: #ddf9ec;
+  font-family: "Poppins", sans-serif;
+}
+
+.popular_trips h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.popular_trips p {
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
