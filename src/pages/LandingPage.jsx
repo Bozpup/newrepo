@@ -8,6 +8,7 @@ const LandingPage = () => {
     <>
       <div>
         <PopularTrips />
+        <UserStories />
         {/* <Trips /> */}
       </div>
     </>
