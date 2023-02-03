@@ -10,12 +10,12 @@ const LandingPage = () => {
   return (
     <>
       <div>
-        <PopularTrips />
-        <WhyShuttle />
-        <Trips />
         <Layout>
           <PopularTrips />
+          <WhyShuttle />
           <Trips />
+          {/* <UserStories /> */}
+          
         </Layout>
       </div>
     </>
