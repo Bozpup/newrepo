@@ -1,3 +1,4 @@
+
 .row {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
@@ -9,21 +10,21 @@
   }
   .row > * {
     flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
+    /* width: 100%; */
+    /* max-width: 100%; */
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
     margin-top: var(--bs-gutter-y);
   }
-  .my-5 {
+  /* .my-5 {
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
-  }
-  .col-md-6 {
+  } */
+  .cols {
     flex: 0 0 auto;
     width: 50%;
   }
-  .slide1{
+  /* .slide1{
     box-sizing: border-box;
     width: 566px;
     height: 290px;
@@ -32,36 +33,120 @@
     box-shadow: 9px 9px 9px rgba(128, 128, 128, 0.25);
     border-radius: 3px;
 }
-.px-3 {
+.px3 {
     padding-right: 1rem !important;
     padding-left: 1rem !important;
+    width: 0%;
 }
-.mx-5 {
+.mxf {
     margin-right: 3rem !important;
     margin-left: 3rem !important;
 }
-.my-6 {
+.my6 {
     margin-top: 30px !important;
     margin-bottom: 30px !important;
 }
-.pt-2 {
+.ptt {
     padding-top: 0.5rem !important;
+  } */
+  .container{
+    margin-bottom: 3rem;
   }
-.userstory-text{
+.userstorytext{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     color: rgba(38, 38, 38, 0.75);
+    
 }
-.pt-5 {
+.userstory{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(38, 38, 38, 0.75);
+  margin-right: 3rem !important;
+  margin-left: 3rem !important;
+  margin-bottom: 3rem;
+}
+.testimonial{
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+    width: 566px;
+    height: 290px;
+    background: #FFFFFF;
+    border: 1px solid rgba(38, 38, 38, 0.3);
+    box-shadow: 9px 9px 9px rgba(128, 128, 128, 0.25);
+    border-radius: 3px;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    margin-right: 3rem !important;
+    margin-left: 3rem !important;
+}
+.testimonialtext{
+  /* margin-top: 10px !important; */
+    margin-bottom: 30px !important;
+    /* padding-top: 0.5rem !important; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(38, 38, 38, 0.75);
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    /* width: 0%; */
+}
+.testimonialauth{
+  padding-top: 4 rem !important;
+  font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(38, 38, 38, 0.75);
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    
+}
+.testimonialimg{
+  flex: 0 0 auto;
+  left: -14.2%;
+  /* width: 226px;
+  height: 230px; */
+    margin-top: 10px;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1rem !important;
+    position: absolute;
+  border-radius: 3px;
+}
+.testimonialimgs{
+  flex: 0 0 auto;
+  left: 35.5%;
+  /* width: 226px;
+  height: 230px; */
+  margin-top: 30px;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    /* padding-top: 1.5 rem !important; */
+    padding-bottom: 1rem !important;
+    position: absolute;
+  border-radius: 3px;
+}
+/* .ptf {
     padding-top: 3rem !important;
 }
-.py-3 {
+.pyt {
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
-}
+} */
 body {
     margin: 0;
     font-family: var(--bs-body-font-family);
@@ -99,6 +184,7 @@ svg {
 .flexcontainer{
   display: flex;
   flex-direction: row;
+  margin-bottom: 1rem;
     }
 .imgs{
   position: absolute;
@@ -106,6 +192,7 @@ svg {
   
 }
 .quote{
+  margin-left: 15%;
   display: inline-block;
     padding: 5px 13px;
     font-size: 20px;
@@ -116,26 +203,15 @@ svg {
     color: #fff;
     border: none;
     border-radius: 20px;
-    position: absolute;
-    left: 9%;
+    /* position: absolute; */
+    left: 20%;
     transform: translate(-50%, -50%);
     background: black;
     border: inherit;
+    width: 40px;
+    height: 40px;
 }
-.quote1{
-  display: inline-block;
-    padding: 5px 13px;
-    font-size: 20px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    border: none;
-    border-radius: 20px;
-    position: absolute;
-    left: 58%;
-    transform: translate(-50%, -50%);
-    background: black;
-    border: inherit;
+.container{
+  padding-left: 31px;
+  padding-top: 75px;
 }
