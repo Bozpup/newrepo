@@ -1,0 +1,17 @@
+.footerBackground{
+    background-color: #000000;
+    padding: 5%;
+    color: #ffffff;
+}
+.subscribe{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 2%;
+}
+.subscribebutton{
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    border: none;
+}
