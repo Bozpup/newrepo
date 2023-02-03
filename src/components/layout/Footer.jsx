@@ -25,12 +25,12 @@ const Footer = () => {
               <InstagramIcon />
               <FacebookIcon />
             </Box>
-            <Typography sx={{ fontFamily: "Poppins", marginBottom: "2%" }}>
+            <p sx={{ fontFamily: "Poppins", marginBottom: "2%", color:'white' }}>
               hello@shuttle9ja.com
-            </Typography>
-            <Typography sx={{ fontFamily: "Poppins", marginBottom: "5%" }}>
+            </p>
+            <p sx={{ fontFamily: "Poppins", marginBottom: "5%", color:'white' }}>
               +234 903 7362 896
-            </Typography>
+            </p>
           </Box>
           <Box sx={{ width: "50%" }}>
             <Typography sx={heading}>Company</Typography>
