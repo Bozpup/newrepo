@@ -23,6 +23,7 @@
     height: 80px;
     background-color: #049F5A;
     opacity: 1;
+    border-radius: 2px;
     z-index: -1;
 }
 .bus-transco div::before {

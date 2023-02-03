@@ -1,4 +1,4 @@
-import {react} from 'react'
+import React from 'react'
 import "./passwordVerificationComponent.css"
 import verified from "../../assets/svgs/verification.svg"
 
