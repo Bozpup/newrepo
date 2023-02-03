@@ -1,5 +1,4 @@
 import React from "react";
-import { Layout } from "../components/layout/Layout";
 import PopularTrips from "../components/popularTrips/PopularTrips";
 import Trips from "../components/Trips";
 import { Transco } from "../components/transco/transco";
