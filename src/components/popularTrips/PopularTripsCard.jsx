@@ -33,9 +33,17 @@ const PopularTripsCard = () => {
                 <div className={styles.rating}>
                   <p>
                     <FaStar />
+                  </p>
+                  <p>
                     <FaStar />
+                  </p>
+                  <p>
                     <FaStar />
+                  </p>
+                  <p>
                     <FaStar />
+                  </p>
+                  <p>
                     <FaStar />
                   </p>
                 </div>

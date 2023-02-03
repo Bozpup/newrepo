@@ -10,7 +10,7 @@ const LandingPage = () => {
       <div>
         <PopularTrips />
         <WhyShuttle />
-        {/* <Trips /> */}
+        <Trips />
       </div>
     </>
   );
