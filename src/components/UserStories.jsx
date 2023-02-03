@@ -5,7 +5,7 @@
 //   return (
 //     <>
 //       <div class="px-3">
-//         <div class="userstory-text mx-5" style={{"color": "#000000"}}>
+//         <div class="userstory-text mx-5" style={{ color: "#000000" }}>
 //           <p>
 //             <h4>
 //               <strong>User stories</strong>{" "}
@@ -24,7 +24,7 @@
 //                 </p>
 //                 <h4 class="pt-5  userstory-text px-3">Michelle Dede</h4>
 //               </div>
-//               <div class="col-md-6 px-3 py-3 imgs" style={{"left": "341px;"}}>
+//               <div class="col-md-6 px-3 py-3 imgs" style={{ left: "341px;" }}>
 //                 <img
 //                   src="images/elizeu-dias-2EGNqazbAMk-unsplash.jpg"
 //                   alt=""
@@ -43,7 +43,7 @@
 //                 </p>
 //                 <h4 class="pt-2 userstory-text px-3">Francis Akah</h4>
 //               </div>
-//               <div class="col-md-6 px-3 py-3 imgs" style={{"left":"991px;"}}>
+//               <div class="col-md-6 px-3 py-3 imgs" style={{ left: "991px;" }}>
 //                 <img
 //                   src="images/alex-starnes-PK_t0Lrh7MM-unsplash.jpg"
 //                   alt=""
