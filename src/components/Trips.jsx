@@ -14,31 +14,39 @@ const Trips = () => {
           How to book a <span>Bus Trip</span>
         </h2>
         <div className={styles.content}>
-          <div className={styles.image}>
-            <Search />
+          <div className={styles.wrapper}>
+            <div className={styles.image}>
+              <Search />
+            </div>
+            <p>Search destination</p>
           </div>
-          <hr />
-          {/* <hr /> */}
-          <div className={styles.image}>
-            <Bus />
+          <div className={styles.hr}/>
+          <div className={styles.wrapper}>
+            <div className={styles.image}>
+              <Bus />
+            </div>
+            <p>Select & book bus</p>
           </div>
-          <hr />
-          <div className={styles.image}>
-            <Card />
+          <div className={styles.hr}/>
+          <div className={styles.wrapper}>
+            <div className={styles.image}>
+              <Card />
+            </div>
+            <p>Make payment</p>
           </div>
-          <hr />
-          <div className={styles.image}>
-            <Ticket />
+          <div className={styles.hr}/>
+          <div className={styles.wrapper}>
+            <div className={styles.image}>
+              <Ticket />
+            </div>
+            <p>Get ticket</p>
           </div>
         </div>
 
-        <div className={styles.contents}>
-          <p>Search destination</p>
-          <p style={{ paddingLeft: "120px" }}>Select & book bus</p>
-          <p style={{ paddingLeft: "110px" }}>Make payment</p>
-          <p style={{ marginLeft: "120px" }}>Get ticket</p>
-        </div>
+        
       </div>
+
+
     </>
   );
 };
