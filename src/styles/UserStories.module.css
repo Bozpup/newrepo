@@ -51,6 +51,8 @@
   } */
   .container{
     margin-bottom: 3rem;
+    background-color: #F2F2F2;
+    padding-bottom: 6%;
   }
 .userstorytext{
     font-family: 'Poppins';

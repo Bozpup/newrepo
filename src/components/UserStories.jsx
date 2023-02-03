@@ -51,6 +51,7 @@ const UserStories = () => {
                   src={img1}
                   width="226px"
                   height="230px"
+                  alt=''
                 />
               </div>
             </div>

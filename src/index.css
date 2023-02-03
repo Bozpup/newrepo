@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  overflow-x: hidden;
+}
 a {
   text-decoration: none;
 }
@@ -22,3 +25,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+

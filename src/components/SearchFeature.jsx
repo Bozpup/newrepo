@@ -1,4 +1,3 @@
-import { ReactComponent as Bus } from "../assets/svgs/bus-hero-section.svg";
 import Herosection from "../assets/svgs/Herosection.png";
 import { Box, Button, InputAdornment, TextField } from "@mui/material";
 import { ReactComponent as Location } from "../assets/svgs/location.svg";
