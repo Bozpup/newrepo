@@ -12,15 +12,13 @@ const LandingPage = () => {
   return (
     <>
       <div>
-        {/* <Layout> */}
-        <MainNavigation />
-        <PopularTrips />
-        <Trips />
-        <Transco />
-        <WhyShuttle />
-        {/* <UserStories /> */}
-        {/* </Layout> */}
-        <Footer />
+        <Layout>
+          <PopularTrips />
+          <WhyShuttle />
+          <Trips />
+          <UserStories />
+          
+        </Layout>
       </div>
     </>
   );
