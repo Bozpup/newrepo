@@ -1,0 +1,30 @@
+.why_card__container {
+  background-color: var(--color-card-black);
+  padding: 63px 30px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+
+.iconContainer {
+  position: absolute;
+  top: -30px;
+  left: 30px;
+}
+
+.why_card__header {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.why_card__title {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.icon {
+  height: 45px;
+  width: 45px;
+}
