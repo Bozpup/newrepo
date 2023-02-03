@@ -1,5 +1,4 @@
 import React from "react";
-import { FaSearch, FaBus, FaTicketAlt, FaCreditCard } from "react-icons/fa";
 import { ReactComponent as Card } from "../assets/svgs/card.svg";
 import { ReactComponent as Bus } from "../assets/svgs/bus.svg";
 import { ReactComponent as Search } from "../assets/svgs/search.svg";
