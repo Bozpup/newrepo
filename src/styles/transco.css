@@ -1,0 +1,125 @@
+.bus-transco{
+    --screen-to-inline-padding-ratio: calc(100vw * 7.42 / 100);
+    --inline-padding-to-block-padding-ratio: 0.78;
+    display: grid;
+    width: 100%;
+    height: auto;
+    padding-inline: calc(var(--screen-to-inline-padding-ratio) / 2);
+    padding-block: calc((var(--screen-to-inline-padding-ratio) / 2) * var(--inline-padding-to-block-padding-ratio));
+    position: relative;
+}
+.bus-transco div:first-of-type{
+    place-content: center;
+    background-image: linear-gradient(to bottom right, #65DDA740 0% 50%, #161718 50% 100%);
+    background-image: linear-gradient(to bottom right, #65DDA740 0% 50%, rgb(233, 232, 231) 50% 100%);
+    padding-inline: 50px;
+    position: relative;
+}
+.bus-transco div:first-of-type::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: transparent;
+    backdrop-filter: invert(100%);
+    clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.bus-transco .bus-div {
+    position: absolute;
+    inset-block: calc((var(--screen-to-inline-padding-ratio) / 2) * var(--inline-padding-to-block-padding-ratio));
+    background-color: transparent;
+    right: calc(var(--screen-to-inline-padding-ratio) / 2);
+    padding-inline: 50px;
+    z-index: 10;
+    display: block;
+    width: 50%;
+    max-width: 1000px;
+    overflow: hidden;
+}
+.bus-transco .bus-div img{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    width: 550px;
+}
+
+@media only screen and (max-width: 884px) {
+.bus-transco div:first-of-type{
+    padding-inline: calc(5.7vw + 0.7rem);
+}
+.bus-transco .bus-div{
+    display: none;
+}
+.bus-transco article h4 {
+    margin-top: calc(5.5vw + 0.5rem) !important;
+    line-height: 1.2em!important;
+    font-size: calc(1rem + 1vw)!important;
+    margin-bottom: calc(1vw + 0.7rem) !important;
+}
+.bus-transco article p:nth-of-type(1) {
+    width: 50% !important;
+    font-size:  calc(1vw + 0.4em)!important;
+    margin-bottom: calc(1vw + 0.7rem) !important;
+}
+.bus-transco article a {
+    margin-bottom: 50px !important;
+}
+}
+
+.bus-transco article h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 3em;
+    color: #262626;
+    margin-bottom: 27px;
+    margin-top: 56px;
+}
+
+.bus-transco article p:nth-of-type(1) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 2.063em;
+    color: #262626;
+    margin-bottom: 27px;
+    width: 40%;
+}
+.bus-transco article a{
+    display: block;
+    border: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-bottom: 104px;
+    text-decoration: none;
+    line-height: 1.375em;
+    font-weight: 500;
+    font-size: 0.9375em;
+    color: #FFFFFF;
+    width: 8rem;
+    height: 2.75rem;
+    background-color: #262626;
+    border-radius: 3px;
+    display: grid;
+    place-content: center;
+    z-index: 1;
+    position: relative;
+}
+.bus-transco article a:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #262626;
+    border: 2px solid #262626;
+}
+.bus-transco article a:focus {
+    border: none;
+    color: #262626;
+    text-decoration: underline;
+    scale: 1.1;
+    outline: 2px solid black;
+    background-color: transparent;
+}

@@ -14,7 +14,7 @@ const MainNavigation = () => {
           pr: 5,
           pl: 5,
           boxShadow: "0px 0px 10px rgba(128, 128, 128, 0.25)",
-          backgroundColor:'#FFFFFF'
+          backgroundColor:'#FFFFFF',
         }}
       >
         <nav className={classes.header}>

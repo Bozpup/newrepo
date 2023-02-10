@@ -1,5 +1,5 @@
 import React from 'react'
-import "./passwordVerificationComponent.css"
+import "../../styles/passwordVerificationComponent.css"
 import verified from "../../assets/svgs/verification.svg"
 
 export const PasswordVerificationComponent = () => {

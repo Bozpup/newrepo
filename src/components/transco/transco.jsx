@@ -1,5 +1,6 @@
 import React from "react";
-import "./transco.css";
+import "../../styles/transco.css";
+import transcoBus from "../../assets/svgs/transco-bus.svg"
 
 export const Transco = () => {
   return (
@@ -11,15 +12,10 @@ export const Transco = () => {
             <p>
               Onboard and gain access to services that will boost your business
             </p>
-            <p>
-              <a href="/" style={{
-                backgroundColor:'#049F5A',
-                padding:'15px',
-                borderRadius:'5px',
-              }}>Sign up now</a>
-            </p>
+            <a href="/">Sign up now</a>
           </article>
         </div>
+        <div className="bus-div"><img src= {transcoBus} alt="" srcset="" /></div>
       </section>
     </>
   );
