@@ -23,7 +23,9 @@ body {
   left: 27px;
   top: 52px;
 }
-
+.head{
+  width: 20%;
+}
 h1 {
   position: absolute;
   width: 539px;
@@ -33,7 +35,7 @@ h1 {
 
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 40px;
   line-height: 60px;
   /* identical to box height */
