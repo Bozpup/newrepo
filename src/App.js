@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import EmailVerification from "./pages/EmailVerification";
 import { register } from "swiper/element/bundle";
 import ForgotPassword from "./pages/ForgotPassword";
 import LandingPage from "./pages/LandingPage";
@@ -17,6 +18,7 @@ function App() {
             element={<PasswordVerification />}
           />
           <Route path="/forgot_password" element={<ForgotPassword />} />
+          <Route path="/email-verification" element={<EmailVerification />} />
         </Routes>
       </Router>
     </div>

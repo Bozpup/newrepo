@@ -1,5 +1,11 @@
 import Herosection from "../assets/svgs/Herosection.png";
-import { Box, Button, InputAdornment, TextField } from "@mui/material";
+import {
+  Box,
+  Button,
+  InputAdornment,
+  TextField,
+  Typography,
+} from "@mui/material";
 import { ReactComponent as Location } from "../assets/svgs/location.svg";
 import { ReactComponent as Enroute } from "../assets/svgs/enroute.svg";
 import { ReactComponent as DepartureDate } from "../assets/svgs/leaving.svg";
@@ -10,14 +16,37 @@ import { ReactComponent as React } from "react";
 const SearchFeature = () => {
   return (
     <>
-      <Box sx={{
-        position:'relative'
-      }}>
-        <Box sx={{
-            padding:'3%',
-            paddingBottom:0
-        }}>
+      <Box
+        sx={{
+          position: "relative",
+        }}
+      >
+        <Box
+          sx={{
+            padding: "3%",
+            paddingBottom: 0,
+          }}
+        >
           <img src={Herosection} alt="" />
+          <Box
+            sx={{
+              // position: "relative",
+              // bottom: "100px",
+              // position: absolute,
+              // width: '562px',
+              // height: 24px,
+              // left: 78px,
+              // top: 358px,
+
+              // fontFamily: 'Poppins',
+              // fontStyle: normal,
+              // fontWeight: 500,
+              // fontSize: 35px,
+              // lineHeight: 24px,
+            }}
+          >
+            <Typography>Book your bus trips in 5 minutes</Typography>
+          </Box>
         </Box>
         <Box
           display="flex"
@@ -26,10 +55,10 @@ const SearchFeature = () => {
             border: "1px solid #2626264D",
             p: 4,
             mt: 3,
-            position:'absolute',
+            position: "absolute",
             borderRadius: "3px",
-            bottom:'-60px',
-            left:'70px',
+            bottom: "-60px",
+            left: "70px",
             backgroundColor: "white",
           }}
         >
@@ -105,7 +134,7 @@ const SearchFeature = () => {
               ),
             }}
           />
-          <Box sx={{ mr: 1, width:'20%' }}>
+          <Box sx={{ mr: 1, width: "20%" }}>
             <Filter />
           </Box>
 

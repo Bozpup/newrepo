@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@font-face {
+  font-family: PoppinsLight;
+  src: url(../src/assets/fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: PoppinsBold;
+  src: url(../src/assets/fonts/Poppins-SemiBold.ttf);
+}
+
 
 * {
   margin: 0;
