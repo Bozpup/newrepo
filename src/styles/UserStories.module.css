@@ -1,30 +1,29 @@
-
 .row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-0.5 * var(--bs-gutter-x));
-    margin-left: calc(-0.5 * var(--bs-gutter-x));
-  }
-  .row > * {
-    flex-shrink: 0;
-    /* width: 100%; */
-    /* max-width: 100%; */
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-    margin-top: var(--bs-gutter-y);
-  }
-  /* .my-5 {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.row > * {
+  flex-shrink: 0;
+  /* width: 100%; */
+  /* max-width: 100%; */
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+/* .my-5 {
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
   } */
-  .cols {
-    flex: 0 0 auto;
-    width: 50%;
-  }
-  /* .slide1{
+.cols {
+  flex: 0 0 auto;
+  width: 50%;
+}
+/* .slide1{
     box-sizing: border-box;
     width: 566px;
     height: 290px;
@@ -49,22 +48,22 @@
 .ptt {
     padding-top: 0.5rem !important;
   } */
-  .container{
-    margin-bottom: 3rem;
-    background-color: #F2F2F2;
-    padding-bottom: 6%;
-  }
-.userstorytext{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    color: rgba(38, 38, 38, 0.75);
-    
+.container {
+  margin-bottom: 3rem;
+  background-color: #f2f2f2;
+  padding-bottom: 6%;
+  width: 100vw;
 }
-.userstory{
-  font-family: 'Poppins';
+.userstorytext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(38, 38, 38, 0.75);
+}
+.userstory {
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -74,72 +73,80 @@
   margin-left: 3rem !important;
   margin-bottom: 3rem;
 }
-.testimonial{
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.testimonial {
+  position: relative;
   flex: 0 0 auto;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
-    width: 566px;
-    height: 290px;
-    background: #FFFFFF;
-    border: 1px solid rgba(38, 38, 38, 0.3);
-    box-shadow: 9px 9px 9px rgba(128, 128, 128, 0.25);
-    border-radius: 3px;
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
-    margin-right: 3rem !important;
-    margin-left: 3rem !important;
+  width: 530px;
+  height: 300px;
+  /* width: 566px;
+  height: 290px; */
+  background: #ffffff;
+  border: 1px solid rgba(38, 38, 38, 0.3);
+  box-shadow: 9px 9px 9px rgba(128, 128, 128, 0.25);
+  border-radius: 3px;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  margin-right: 3rem !important;
+  margin-left: 3rem !important;
+  margin-bottom: 3%;
 }
-.testimonialtext{
+.testimonialtext {
   /* margin-top: 10px !important; */
-    margin-bottom: 30px !important;
-    /* padding-top: 0.5rem !important; */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    color: rgba(38, 38, 38, 0.75);
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
-    /* width: 0%; */
+  margin-bottom: 30px !important;
+  /* padding-top: 0.5rem !important; */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(38, 38, 38, 0.75);
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  /* width: 0%; */
 }
-.testimonialauth{
+.testimonialauth {
   padding-top: 4 rem !important;
-  font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    color: rgba(38, 38, 38, 0.75);
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
-    
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(38, 38, 38, 0.75);
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
 }
-.testimonialimg{
+.testimonialimg {
   flex: 0 0 auto;
-  left: -14.2%;
-  /* width: 226px;
-  height: 230px; */
-    margin-top: 10px;
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
-    padding-top: 1.5rem !important;
-    padding-bottom: 1rem !important;
-    position: absolute;
+  position: absolute;
+  right: -25%;
+  top: -2%;
+  margin-top: 10px;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1rem !important;
   border-radius: 3px;
 }
-.testimonialimgs{
+.testimonialimgs {
   flex: 0 0 auto;
   left: 35.5%;
   /* width: 226px;
   height: 230px; */
   margin-top: 30px;
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
-    /* padding-top: 1.5 rem !important; */
-    padding-bottom: 1rem !important;
-    position: absolute;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  /* padding-top: 1.5 rem !important; */
+  padding-bottom: 1rem !important;
+  position: absolute;
   border-radius: 3px;
 }
 /* .ptf {
@@ -150,70 +157,99 @@
     padding-bottom: 1rem !important;
 } */
 body {
-    margin: 0;
-    font-family: var(--bs-body-font-family);
-    font-size: var(--bs-body-font-size);
-    font-weight: var(--bs-body-font-weight);
-    line-height: var(--bs-body-line-height);
-    color: var(--bs-body-color);
-    text-align: var(--bs-body-text-align);
-    background-color: var(--bs-body-bg);
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+h4,
+.h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  h4,
+  .h4 {
+    font-size: 1.5rem;
   }
-  h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.2;
-  }
-  h4, .h4 {
-    font-size: calc(1.275rem + 0.3vw);
-  }
-  @media (min-width: 1200px) {
-    h4, .h4 {
-      font-size: 1.5rem;
-    }
-  }
-  p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-  }
-  img,
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+img,
 svg {
   vertical-align: middle;
-}  
-.flexcontainer{
+}
+/* .flexcontainer {
   display: flex;
   flex-direction: row;
   margin-bottom: 1rem;
-    }
-.imgs{
+} */
+.imgs {
   position: absolute;
   border-radius: 3px;
-  
 }
-.quote{
+
+.quote {
   margin-left: 15%;
   display: inline-block;
-    padding: 5px 13px;
-    font-size: 20px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    border: none;
-    border-radius: 20px;
-    /* position: absolute; */
-    left: 20%;
-    transform: translate(-50%, -50%);
-    background: black;
-    border: inherit;
-    width: 40px;
-    height: 40px;
+  padding: 5px 13px;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+  /* position: absolute; */
+  /* left: 20%; */
+  transform: translate(-50%, -50%);
+  background: black;
+  border: inherit;
+  width: 40px;
+  height: 40px;
 }
-.container{
+.container {
   padding-left: 31px;
   padding-top: 75px;
+}
+
+/* Boalrinwa's main edit */
+@media screen and (min-width: 1441px) {
+  /* .flexcontainer {
+    justify-content: center;
+    align-items: center;
+  } */
+  .testimonial {
+    width: 630px;
+    height: 320px;
+  }
+}
+
+@media screen and(max-width: 1024px) {
+  .testimonial {
+    width: 450px;
+    height: 420px;
+  }
 }
