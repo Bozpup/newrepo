@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(../src/assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: PoppinsLight;
+  src: url(../src/assets/fonts/Poppins-Light.ttf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: PoppinsLight;
 }
 html {
   overflow-x: hidden;
