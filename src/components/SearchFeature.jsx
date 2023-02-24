@@ -1,5 +1,9 @@
 import Herosection from "../assets/svgs/Herosection.png";
 import { Box, Button, InputAdornment, TextField } from "@mui/material";
+import location from '../assets/images/location.png';
+import coming from '../assets/images/coming.png';
+import leave from '../assets/images/leave.png';
+import going from '../assets/images/going.png';
 import { ReactComponent as Location } from "../assets/svgs/location.svg";
 import { ReactComponent as Enroute } from "../assets/svgs/enroute.svg";
 import { ReactComponent as DepartureDate } from "../assets/svgs/leaving.svg";
@@ -41,12 +45,12 @@ const SearchFeature = () => {
             }}
             id="source"
             size="small"
-            // variant="outlined"
+            variant="outlined"
             placeholder="Where are you coming from?"
             InputProps={{
               startAdornment: (
                 <InputAdornment position="start">
-                  <Location />:
+                <Location />:
                 </InputAdornment>
               ),
             }}
