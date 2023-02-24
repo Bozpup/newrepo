@@ -8,7 +8,7 @@
 
 .pt_card {
   /* padding: 10px; */
-  width: 270px;
+  width: 300px;
   background-color: #fff;
   margin-bottom: 30px;
 }
@@ -18,15 +18,15 @@
 }
 
 .pt_card__image img {
-  /* width: inherit; */
-  width: 270px;
+  /* width: 270px; */
+  width: inherit;
 }
 
 .pt_card__image p {
   background-color: #262626c4;
   color: #fff;
   width: fit-content;
-  padding: 3px 7px;
+  padding: 5px 7px;
   border-radius: 2px;
   position: absolute;
   top: 10px;
@@ -76,7 +76,9 @@
 .pt_card__body__first p svg {
   margin-top: 5px;
 }
-
+.pt_card__body__second .rating {
+  padding: 5px;
+}
 .pt_card__body__second .rating p svg {
   color: #e0bf0f;
   font-size: 1.8rem;

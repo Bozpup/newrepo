@@ -54,10 +54,27 @@
 
 .why__cards {
   display: grid;
-
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 60px;
   width: 100%;
-
   margin-bottom: 80px;
 }
+
+@media screen and (min-width: 1440px) {
+  .why__cards {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 100px;
+  }
+}
+/* @media screen and (min-width: 2560) {
+  .why__cards {
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    gap: 120px;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .why__container {
+    justify-content: center;
+    align-items: center;
+  }
+} */
