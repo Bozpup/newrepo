@@ -15,7 +15,10 @@ const EmailVerification = () => {
       </div>
       <div className={styles.verify}>
         <h1 className={styles.heading}> Verify your e-mail address</h1>
-        <p className={styles.paragraph}> Please enter the email linked to your account</p>
+        <p className={styles.paragraph}>
+          {" "}
+          Please enter the email linked to your account
+        </p>
         <h3 className={styles.heading3}> Email Address</h3>
         <input type="text" className={styles.inputText}></input>
         <button className={styles.doneButton}>

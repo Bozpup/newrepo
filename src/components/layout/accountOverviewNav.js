@@ -1,10 +1,10 @@
-// import Link from "next/link";
 import classes from "./accountOverviewNav.module.css";
 import React from "react";
 import { Box } from "@mui/material";
 import Logo from "../../assets/svgs/logo.svg";
+import bell from "../../assets/svgs/notification.svg";
 
-const MainNavigation = () => {
+const accountOverviewNav = () => {
   return (
     <>
       <Box
@@ -59,36 +59,23 @@ const MainNavigation = () => {
             </ul>
           </Box>
 
-          <Box sx={{ width: "50%", float: "right" }}>
-            <ul style={{ width: "100%", marginLeft: "auto", float: "right" }}>
-              <li className={classes.listitem} style={buttonStyle}>
-                <a
-                  style={{
-                    color: "#FFFFFF",
-                  }}
-                  href="/"
-                >
-                  Register
+          <Box
+            sx={{
+              marginRight: "10%",
+              textAlign: "center",
+              top: "39.09%",
+              bottom: "39.09%",
+            }}
+          >
+            <ul>
+              <li className={classes.listitem}>
+                <a className={classes.notify} href="/">
+                  <img className={classes.notification} src={bell} alt="" />
                 </a>
               </li>
-              <li
-                className={classes.listitem}
-                style={{
-                  border: "1px solid #037743",
-                  borderRadius: "3px",
-                  marginLeft: "10%",
-                  top: "39.09%",
-                  bottom: "39.09%",
-                  left: "88.4%",
-                  right: "1.94%",
-                  padding: "8px",
-                }}
-              >
-                <a
-                  href="/"
-                  style={{ color: "#037743", top: "39.09%", bottom: "39.09%" }}
-                >
-                  Log in
+              <li className={classes.listitem}>
+                <a className={classes.userinitials} href="/">
+                  <p className={classes.ifont}> A</p>
                 </a>
               </li>
             </ul>
@@ -99,7 +86,7 @@ const MainNavigation = () => {
   );
 };
 
-export default MainNavigation;
+export default accountOverviewNav;
 
 const listStyle = {
   left: "27.64%",
@@ -111,14 +98,4 @@ const listStyle = {
   fontWeight: 300,
   fontSize: "20px",
   lineHeight: "24px",
-};
-const buttonStyle = {
-  left: " 76.67%",
-  right: "13.68%",
-  top: "27.27%",
-  bottom: "27.27%",
-  background: "#037743",
-  borderRadius: "3px",
-  padding: "8px",
-  fontFamily: "PoppinsLight",
 };

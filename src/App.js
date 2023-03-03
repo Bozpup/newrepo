@@ -4,6 +4,7 @@ import { register } from "swiper/element/bundle";
 import ForgotPassword from "./pages/ForgotPassword";
 import LandingPage from "./pages/LandingPage";
 import PasswordVerification from "./pages/PasswordVerification";
+import AccountOverview from "./pages/AccountOverview";
 
 function App() {
   register();
@@ -13,9 +14,13 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/password-verification" element={<PasswordVerification />} />
+          <Route
+            path="/password-verification"
+            element={<PasswordVerification />}
+          />
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/email-verification" element={<EmailVerification />} />
+          <Route path="/account-overview" element={<AccountOverview />} />
         </Routes>
       </Router>
     </div>

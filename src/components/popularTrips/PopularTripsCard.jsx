@@ -1,7 +1,6 @@
 import React from "react";
 import { FaArrowRight, FaRegClock, FaBus, FaStar } from "react-icons/fa";
 import popularTrips from "./popularTripsData";
-import { star } from "./../../utils/Images";
 import styles from "./../../styles/PopularTrips/popularTripsCard.module.css";
 
 const PopularTripsCard = () => {
