@@ -1,5 +1,5 @@
 import React from "react";
-// import Shuttle9ja from "./Shuttle9ja.svg";
+import logo from "../assets/svgs/logo.svg";
 import email from "../assets/svgs/email.svg";
 import styles from "../styles/emailVerification.module.css";
 
@@ -7,6 +7,7 @@ const EmailVerification = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.sideNav}>
+        <img className={styles.img1} alt="" src={logo}></img>
         <img className={styles.img2} alt="" src={email}></img>
         <footer className={styles.footerSection}>
           If you don't see the message in your inbox, please check your spam
@@ -16,7 +17,6 @@ const EmailVerification = () => {
       <div className={styles.verify}>
         <h1 className={styles.heading}> Verify your e-mail address</h1>
         <p className={styles.paragraph}>
-          {" "}
           Please enter the email linked to your account
         </p>
         <h3 className={styles.heading3}> Email Address</h3>

@@ -427,7 +427,7 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
   .userinfo {
     position: absolute;
     width: 289px;
@@ -475,4 +475,4 @@
 
     color: #262626;
   }
-}
+} */

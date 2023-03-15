@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/accountOverview.module.css";
 import userimg from "../assets/svgs/userimg.svg";
 import house from "../assets/svgs/house.svg";
-// import door from "../assets/svgs/door.svg";
+
 import pen from "../assets/svgs/pen.svg";
 import time from "../assets/svgs/time.svg";
 import questionmark from "../assets/svgs/questionmark.svg";
