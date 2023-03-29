@@ -1,29 +1,17 @@
-.accountName {
-  position: absolute;
-  width: 289px;
-  height: 48px;
-  left: 793px;
-  top: 186px;
+.accountOverview {
+  display: inline-block;
+  width: 100vw;
+  height: 90vh;
+
   white-space: nowrap;
-  align-content: center;
-
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 48px;
-
-  letter-spacing: 0.01em;
-
-  color: #000000;
 }
 
 .sideNav {
-  height: 1600px;
+  height: 1648px;
   position: absolute;
-  left: 360px;
+  left: 330px;
   width: 600px;
-  margin-left: -3px;
+  margin-left: 80px;
   border-left: 1px solid #808080;
 }
 
@@ -31,7 +19,7 @@
   position: absolute;
   width: 205px;
   height: 24px;
-  left: 40px;
+  left: 60px;
   top: 250px;
 
   font-family: "Poppins";
@@ -51,20 +39,12 @@
   bottom: 2.78%;
   width: 13%;
 }
-/* .door {
-  position: absolute;
-  left: -33.5px;
-  right: 10;
-  top: -4;
-  bottom: 2.78%;
-  width: 6.5%;
-  height: 70%;
-} */
+
 .navtxt2 {
   position: absolute;
   width: 172px;
   height: 24px;
-  left: 40px;
+  left: 60px;
   top: 320px;
 
   font-family: "PoppinsLight";
@@ -88,7 +68,7 @@
   position: absolute;
   width: 172px;
   height: 24px;
-  left: 40px;
+  left: 60px;
   top: 390px;
   white-space: nowrap;
 
@@ -100,7 +80,7 @@
 
   color: #262626;
 }
-.time {
+.lock {
   position: absolute;
   left: 0px;
   right: 7.5%;
@@ -109,37 +89,15 @@
   width: 13%;
 }
 
-.navtxt4 {
-  position: absolute;
-  width: 199px;
-  height: 24px;
-  left: 40px;
-  top: 460px;
-
-  font-family: "PoppinsLight";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 23px;
-  line-height: 24px;
-
-  color: #262626;
+.accountDetails {
+  display: inline-block;
 }
-.questionmark {
-  position: absolute;
-  left: 0px;
-  right: 7.5%;
-  top: 50;
-  bottom: 2.78%;
-  width: 13%;
-}
+
 .userinfo {
-  position: absolute;
-  width: 289px;
-  height: 48px;
-  left: 40px;
-  top: -20px;
+  margin-top: 80px;
+  margin-left: 700px;
+
   white-space: nowrap;
-  align-content: center;
 
   font-family: "Poppins";
   font-style: normal;
@@ -152,27 +110,25 @@
   color: #000000;
 }
 .useri {
-  position: absolute;
-  width: 390px;
-  height: 390px;
-  left: -10px;
-  top: 150px;
+  width: 180px;
+  height: 180px;
+  margin-top: 69px;
+  margin-left: 750px;
+
   border-radius: 100%;
 
   background: #d9d9d9;
 }
 .txt1 {
-  position: absolute;
-  width: 250px;
-  height: 200px;
-  right: 10px;
-  top: 580px;
+  margin-top: 30px;
+  margin-left: 700px;
+
   white-space: nowrap;
 
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1px;
 
   letter-spacing: 0.01em;
@@ -180,16 +136,13 @@
   color: #262626;
 }
 .txt2 {
-  position: absolute;
-  width: 233px;
-  height: 48px;
-  left: 484px;
-  top: 900px;
+  margin-top: 100px;
+  margin-left: 550px;
 
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 25px;
   line-height: 48px;
 
   letter-spacing: 0.01em;
@@ -197,11 +150,8 @@
   color: #262626;
 }
 .uaddress {
-  position: absolute;
-  width: 555px;
-  height: 48px;
-  left: 484px;
-  top: 960px;
+  margin-top: 30px;
+  margin-left: 550px;
 
   font-family: "PoppinsLight";
   font-style: normal;
@@ -214,16 +164,13 @@
   color: #262626;
 }
 .txt3 {
-  position: absolute;
-  width: 242px;
-  height: 48px;
-  left: 484px;
-  top: 1033px;
+  margin-top: 30px;
+  margin-left: 550px;
 
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 25px;
   line-height: 48px;
 
   letter-spacing: 0.01em;
@@ -231,11 +178,8 @@
   color: #262626;
 }
 .unumber {
-  position: absolute;
-  width: 289px;
-  height: 48px;
-  left: 484px;
-  top: 1082px;
+  margin-top: 30px;
+  margin-left: 550px;
 
   font-family: "PoppinsLight";
   font-style: normal;
@@ -250,16 +194,13 @@
   color: #262626;
 }
 .txt4 {
-  position: absolute;
-  width: 121px;
-  height: 48px;
-  left: 484px;
-  top: 1150px;
+  margin-top: 30px;
+  margin-left: 550px;
 
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 25px;
   line-height: 48px;
 
   letter-spacing: 0.01em;
@@ -267,11 +208,8 @@
   color: #262626;
 }
 .ugender {
-  position: absolute;
-  width: 121px;
-  height: 48px;
-  left: 484px;
-  top: 1197px;
+  margin-top: 30px;
+  margin-left: 550px;
 
   font-family: "PoppinsLight";
   font-style: normal;
@@ -284,16 +222,13 @@
   color: #262626;
 }
 .txt5 {
-  position: absolute;
-  width: 203px;
-  height: 48px;
-  left: 484px;
-  top: 1260px;
+  margin-top: 30px;
+  margin-left: 550px;
 
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 25px;
   line-height: 48px;
 
   letter-spacing: 0.01em;
@@ -301,12 +236,8 @@
   color: #262626;
 }
 .udob {
-  position: absolute;
-  width: 267px;
-  height: 48px;
-  left: 484px;
-  top: 1310px;
-  white-space: nowrap;
+  margin-top: 30px;
+  margin-left: 550px;
 
   font-family: "PoppinsLight";
   font-style: normal;
@@ -325,11 +256,11 @@
   padding: 13px 29px;
   gap: 10px;
 
-  position: absolute;
   width: 161px;
   height: 50px;
-  left: 484px;
-  top: 1420px;
+
+  margin-top: 120px;
+  margin-left: 550px;
 
   background: #037743;
   border-radius: 3px;
@@ -352,127 +283,77 @@
   flex-grow: 0;
 }
 .footer {
-  position: absolute;
-  top: 1600px;
+  margin-top: 360px;
 }
-
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
   .sideNav {
-    height: 1600px;
-    position: absolute;
-    left: 250px;
-    width: 600px;
-    margin-left: -3px;
-    border-left: 1px solid #808080;
+    left: 200px;
+    height: 1589px;
   }
   .navtxt1 {
-    position: absolute;
-    width: 150px;
-    height: 24px;
-    left: 40px;
-    top: 250px;
-
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 20px;
+    left: 20px;
   }
   .navtxt2 {
-    position: absolute;
-    width: 172px;
-    height: 24px;
-    left: 40px;
-    top: 320px;
-
-    font-family: "PoppinsLight";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 24px;
-
-    color: #262626;
-    white-space: nowrap;
+    font-size: 20px;
+    left: 20px;
   }
   .navtxt3 {
-    position: absolute;
-    width: 172px;
-    height: 24px;
-    left: 40px;
-    top: 390px;
-    white-space: nowrap;
-
-    font-family: "PoppinsLight";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 24px;
-
-    color: #262626;
-  }
-  .navtxt4 {
-    position: absolute;
-    width: 199px;
-    height: 24px;
-    left: 40px;
-    top: 460px;
-
-    font-family: "PoppinsLight";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 24px;
-
-    color: #262626;
+    font-size: 20px;
+    left: 20px;
   }
 }
 
-/* @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
   .userinfo {
-    position: absolute;
-    width: 289px;
-    height: 48px;
-    left: 40px;
-    top: -20px;
-    white-space: nowrap;
-    align-content: center;
-
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 48px;
-
-    letter-spacing: 0.01em;
-
-    color: #000000;
+    font-size: 25px;
+    margin-left: 400px;
   }
   .useri {
-    position: absolute;
-    width: 145px;
-    height: 145px;
-    left: 10px;
-    top: 100px;
-    border-radius: 100%;
-
-    background: #d9d9d9;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 450px;
   }
   .txt1 {
-    position: absolute;
-    width: 250px;
-    height: 200px;
-    right: 10px;
-    top: 300px;
-    white-space: nowrap;
-
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 1px;
-
-    letter-spacing: 0.01em;
-
-    color: #262626;
+    font-size: 14px;
+    margin-left: 400px;
   }
-} */
+  .txt2 {
+    font-size: 14px;
+    margin-left: 350px;
+  }
+  .uaddress {
+    font-size: 15px;
+    margin-left: 350px;
+  }
+
+  .txt3 {
+    font-size: 14px;
+    margin-left: 350px;
+  }
+  .unumber {
+    font-size: 15px;
+    margin-left: 350px;
+  }
+  .txt4 {
+    font-size: 14px;
+    margin-left: 350px;
+  }
+  .ugender {
+    font-size: 15px;
+    margin-left: 350px;
+  }
+
+  .txt5 {
+    font-size: 14px;
+    margin-left: 350px;
+  }
+  .udob {
+    font-size: 15px;
+    margin-left: 350px;
+  }
+  .editButton {
+    margin-left: 350px;
+  }
+}

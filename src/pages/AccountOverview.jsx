@@ -4,10 +4,10 @@ import userimg from "../assets/svgs/userimg.svg";
 import house from "../assets/svgs/house.svg";
 
 import pen from "../assets/svgs/pen.svg";
-import time from "../assets/svgs/time.svg";
-import questionmark from "../assets/svgs/questionmark.svg";
+import lock from "../assets/svgs/lock.svg";
+
 import Footer from "../components/layout/Footer";
-import AccountOverviewNav from "../components/layout/accountOverviewNav";
+import MainNavigation from "../components/layout/MainNavigation";
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />;
 
@@ -15,7 +15,7 @@ const accountOverview = () => {
   return (
     <div className={styles.accountOverview}>
       <div className={styles.header}>
-        <AccountOverviewNav />
+        <MainNavigation />
       </div>
 
       <div className={styles.sideNav}></div>
@@ -29,31 +29,35 @@ const accountOverview = () => {
           <p style={{ position: "absolute", left: "40px" }}>Edit proflie</p>
         </div>
         <div className={styles.navtxt3}>
-          <img className={styles.time} alt={""} src={time} />
-          <p style={{ position: "absolute", left: "40px" }}>Booking history</p>
-        </div>
-        <div className={styles.navtxt4}>
-          <img className={styles.questionmark} alt={""} src={questionmark} />
-          <p style={{ position: "absolute", left: "40px" }}>Help and support</p>
+          <img className={styles.lock} alt={""} src={lock} />
+          <p style={{ position: "absolute", left: "40px" }}>Change password</p>
         </div>
       </div>
-      <div className={styles.accountName}>
+      <div className={styles.accountDetails}>
         <p className={styles.userinfo}>Account Overview</p>
         <img className={styles.useri} alt={""} src={userimg} />
         <p className={styles.txt1}>Okpala Oluwayimisola </p>
-      </div>
-      <p className={styles.txt2}>Email Address</p>
-      <p className={styles.uaddress}>oliyidekamsiyochukwu@gmail.com </p>
-      <p className={styles.txt3}>Phone Number</p>
-      <p className={styles.unumber}>+234 704 866 6531</p>
-      <p className={styles.txt4}>Gender</p>
-      <p className={styles.ugender}>Female</p>
-      <p className={styles.txt5}>Date of Birth</p>
-      <p className={styles.udob}>January 25, 2003</p>
-      <button className={styles.editButton}>
-        <span className={styles.edit}>Edit proflie</span>
-      </button>
 
+        <p className={styles.txt2}>
+          <b>Email Address</b>
+        </p>
+        <p className={styles.uaddress}>oliyidekamsiyochukwu@gmail.com </p>
+        <p className={styles.txt3}>
+          <b>Phone Number</b>
+        </p>
+        <p className={styles.unumber}>+234 704 866 6531</p>
+        <p className={styles.txt4}>
+          <b>Gender</b>
+        </p>
+        <p className={styles.ugender}>Female</p>
+        <p className={styles.txt5}>
+          <b>Date of Birth</b>
+        </p>
+        <p className={styles.udob}>January 25, 2003</p>
+        <button className={styles.editButton}>
+          <span className={styles.edit}>Edit proflie</span>
+        </button>
+      </div>
       <div className={styles.footer}>
         <Footer />
       </div>

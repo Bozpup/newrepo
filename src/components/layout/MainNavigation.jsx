@@ -1,5 +1,5 @@
 // import Link from "next/link";
-import classes from "./accountOverviewNav.module.css";
+import classes from "./MainNavigation.module.css";
 import React from "react";
 import { Box } from "@mui/material";
 import Logo from "../../assets/svgs/logo.svg";
